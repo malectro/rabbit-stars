@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#field {
+  position: absolute;
+  top: 0px;
+  height: 3000px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: black url('bunnies.png') bottom right no-repeat;
+}
+.star {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  background: #fff;
+  box-shadow: 0 0 10px 5px #fff;
+}
+
